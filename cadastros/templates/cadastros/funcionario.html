@@ -1,0 +1,24 @@
+{% extends 'paginas/modelo.html' %}
+
+{% block titulo %}
+<title>Lê Café - Cadastro Funcionário</title>
+{% endblock %}
+
+{% block MainContent %}
+
+<form style="margin: 150px 0 0 150px;"action="" method="POST">
+
+    {% csrf_token %}
+
+    {{ form.as_p }}
+
+    <button type="submit" class="btn btn-primary">Cadastrar</button>
+    
+</form>
+
+<script>
+    window.addEventListener('load', function () {
+    window.scrollTo(0, 0); // /Reset Scroll
+    });
+</script>
+{% endblock %}
