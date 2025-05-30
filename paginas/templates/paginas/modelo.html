@@ -28,7 +28,16 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
-
+    <style>
+        .product-item .tab-image {
+            width: 140px;
+            height: 140px;
+            object-fit: cover;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
 </head>
 
 <body>
@@ -267,7 +276,7 @@
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="comidasDropdown">
                                         <li><a class="dropdown-item" href="#">Lanches</a></li>
-                                        <li><a class="dropdown-item" href="#">Salgados</a></li>
+                                        <li><a class="dropdown-item" href="{% url 'salgados' %}">Salgados</a></li>
                                         <li><a class="dropdown-item" href="#">Doces</a></li>
                                     </ul>
                                 </li>
@@ -441,7 +450,7 @@
                                                 </svg></a>
                                             <figure>
                                                 <a href="index.html" title="Product Title">
-                                                    <img src="{% static 'images/thumb-bananas.png' %}"
+                                                    <img src="{% static 'images/capuccino.jpeg' %}"
                                                         class="tab-image">
                                                 </a>
                                             </figure>
@@ -488,7 +497,7 @@
                                                 </svg></a>
                                             <figure>
                                                 <a href="index.html" title="Product Title">
-                                                    <img src="{% static 'images/thumb-biscuits.png' %}"
+                                                    <img src="{% static 'images/paoDeQueijo.jpg' %}"
                                                         class="tab-image">
                                                 </a>
                                             </figure>
@@ -534,7 +543,7 @@
                                                 </svg></a>
                                             <figure>
                                                 <a href="index.html" title="Product Title">
-                                                    <img src="{% static 'images/thumb-cucumber.png' %}"
+                                                    <img src="{% static 'images/brownie.jpg' %}"
                                                         class="tab-image">
                                                 </a>
                                             </figure>
@@ -580,7 +589,7 @@
                                                 </svg></a>
                                             <figure>
                                                 <a href="index.html" title="Product Title">
-                                                    <img src="{% static 'images/thumb-milk.png' %}" class="tab-image">
+                                                    <img src="{% static 'images/espresso.jpg' %}" class="tab-image">
                                                 </a>
                                             </figure>
                                             <h3>Sunstar Fresh Melon Juice</h3>
@@ -625,7 +634,7 @@
                                                 </svg></a>
                                             <figure>
                                                 <a href="index.html" title="Product Title">
-                                                    <img src="{% static 'images/thumb-bananas.png' %}"
+                                                    <img src="{% static 'images/boloCenoura.jpg' %}"
                                                         class="tab-image">
                                                 </a>
                                             </figure>
@@ -671,7 +680,7 @@
                                                 </svg></a>
                                             <figure>
                                                 <a href="index.html" title="Product Title">
-                                                    <img src="{% static 'images/thumb-biscuits.png' %}"
+                                                    <img src="{% static 'images/sanduiche.jpg' %}"
                                                         class="tab-image">
                                                 </a>
                                             </figure>
@@ -717,7 +726,7 @@
                                                 </svg></a>
                                             <figure>
                                                 <a href="index.html" title="Product Title">
-                                                    <img src="{% static 'images/thumb-cucumber.png' %}"
+                                                    <img src="{% static 'images/affogato.jpg' %}"
                                                         class="tab-image">
                                                 </a>
                                             </figure>
@@ -763,7 +772,7 @@
                                                 </svg></a>
                                             <figure>
                                                 <a href="index.html" title="Product Title">
-                                                    <img src="{% static 'images/thumb-milk.png' %}" class="tab-image">
+                                                    <img src="{% static 'images/mocca.jpeg' %}" class="tab-image">
                                                 </a>
                                             </figure>
                                             <h3>Sunstar Fresh Melon Juice</h3>
@@ -808,7 +817,7 @@
                                                 </svg></a>
                                             <figure>
                                                 <a href="index.html" title="Product Title">
-                                                    <img src="{% static 'images/thumb-bananas.png' %}"
+                                                    <img src="{% static 'images/croissant.jpg' %}"
                                                         class="tab-image">
                                                 </a>
                                             </figure>
@@ -854,7 +863,7 @@
                                                 </svg></a>
                                             <figure>
                                                 <a href="index.html" title="Product Title">
-                                                    <img src="{% static 'images/thumb-biscuits.png' %}"
+                                                    <img src="{% static 'images/misto.png' %}"
                                                         class="tab-image">
                                                 </a>
                                             </figure>

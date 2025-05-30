@@ -7,3 +7,6 @@ class IndexView(TemplateView):
 
 class SobreView(TemplateView):
     template_name = 'paginas/sobre.html'
+
+class SalgadosView(TemplateView):
+    template_name = 'paginas/salgados.html'
