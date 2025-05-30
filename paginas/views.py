@@ -10,3 +10,8 @@ class SobreView(TemplateView):
 
 class SalgadosView(TemplateView):
     template_name = 'paginas/salgados.html'
+
+class TesteView(TemplateView):
+    fields = ['nome', 'preco', 'categoria', 'descricao', 'imagem']
+    success_url = '/paginas/teste/'
+    template_name = 'paginas/adicionarItemModelo.html'
